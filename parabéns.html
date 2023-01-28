@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabéns</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+#texto1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: black;
+    margin-left: 0px;
+    width: 100%;
+    background-color: rgb(100, 100, 231);
+}
+#texto2 {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    width: 700px;
+    background-color: white;
+}
+#imagem {
+    width: 300px;
+    margin-left: 800px;
+    margin-top: -100px;
+}
+#botão {
+    background-color: rgb(100, 100, 231);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    </style>
+</head>
+<body>
+    <div id="texto1">
+        Parabéns! Você finalizou o quiz.
+    </div><br>
+    <div id="texto2">
+        <p>Agora, você deve ser capaz de identificar algumas características de alguns dos elementos da tabela periódica. Além disso, você pode lembrar da ordem dos elementos.</p>
+    </div><br>
+    <img src="parabéns.webp" id="imagem"><br>
+    <center><input type="button" value="Início" id="botão" onclick="clicar()"></center>
+</body>
+<script>
+    function clicar() {
+        window.location="home.html"
+    }
+</script>
+</html>

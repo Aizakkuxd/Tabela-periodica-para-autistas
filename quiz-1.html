@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/gh/interactiveJS/interactiveJS@v2.0.1/src/interactive.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/interactiveJS/interactiveJS@v2.0.1/src/css/interactive.min.css" rel="stylesheet"/>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+* {
+    background-color: rgb(145, 175, 165);
+}
+#título {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    margin-left: 0px;
+    background-color: rgb(100, 100, 231)
+}
+#texto1 {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    width: 700px;
+    background-color: white;
+}
+#botão {
+  background-color: rgb(100, 100, 231); /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .content {
+    margin: 5px;
+    padding: 0;
+  }
+  #element0 {
+    height: 90px;
+    width: 70px;
+    top: 100px;
+    left: 1000px;
+    background-color: transparent;
+
+  }
+  #element1 {
+    height: 90px;
+    width: 70px;
+    top: 100px;
+    left: 1100px;
+    background-color: transparent;
+  }
+  
+  #element2 {
+    height: 90px;
+    width: 70px;
+    top: 100px;
+    left: 1200px;
+    background-color: transparent;
+  }
+    </style>
+</head>
+<body>
+    <div id="título">Quiz</div><br>
+    <div id="texto1">1. Os elementos dessa família são conhecidos por não se combinarem com outros elementos. São muitas vezes chamados de “gases nobres”.</div>
+    <img src="tabela-quiz-1.jpg">
+    <div id="element0" name="Default options">
+    <div class="content"><img src="xenônio.jpg"></div>
+</div>
+  <div id="element1" name="Close false">
+    <div class="content">
+      <img src="radônio.jpg">
+    </div>
+  </div>
+  
+  <div id="element2" name="Just Drag">
+    <div class="content">
+      <img src="neônio.jpg">
+    </div>
+  </div>
+  <input type="button" value="Próxima" id="botão" onclick="clicar()">
+</body>
+<script>
+    interactive('element0');
+// interact
+interactive('element2', { resize: true } );
+
+
+let options =  {
+  close: false
+};
+interactive('element1', options);
+
+function clicar () {
+  window.location="quiz2.html"
+}
+</script>
+</html>

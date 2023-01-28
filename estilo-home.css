@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');  
+*{ 
+    margin: 0 auto;
+    padding: 0; /* define que a borda será no início da página */
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+#menu {
+    list-style-type: none; /* remove os ícones de lista */
+    background-color: black;
+    padding: 0%;
+}
+#menu li {
+    display: inline; /* deixa o menu horizontal */
+}
+#menu li a { /* configura os filhos (a) de li */
+    color: white;
+    text-decoration: none; /* remove as decorações de texto (underlines) */
+    padding: 20px;
+    display: inline-block;
+    transition: 0.3s;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+#menu li a:hover { /* define o que acontece quando passa o mouse por cima do elemento */
+    background-color: rgb(100, 100, 231);
+}
+#input {
+    margin-left: 40%;
+}
+#imagem {
+    width: 7%;
+    margin-top: -10px;
+}
+#lupa {
+    float: right;
+    margin-right: 240px;
+    width: 2%;
+    margin-top: -43px;
+}
+#texto1 {
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+    width: 500px;
+    margin-left: 30px;
+    padding-top: 0px;
+    background-color: #ffffff;
+    margin-top: -500px;
+}
+#texto2 {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 16px;
+    padding: 1px;
+    box-shadow: 3px 3px 8px rgb(151, 148, 148);
+}
+#sobre {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+#foto-home2 {
+    margin-left: 640px;
+    margin-right: auto;
+    width: 700px;
+    box-shadow: 3px 3px 8px rgb(151, 148, 148);
+}
+#traço {
+        border: 10px solid rgb(0, 0, 0);
+        margin: auto;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 173px;
+}
+#texto3 {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    width: 700px;
+}
+#urca {
+    width: 150px;
+    margin-left: 1150px;
+    margin-top: -190px;
+    box-shadow: 3px 3px 8px rgb(151, 148, 148);
+}
+#autismo {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+#texto4 {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+}
+#contato {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+#texto5 {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+}
+#rodapé {
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+#rodapé a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#rodapé a:hover {
+    color: rgb(100, 100, 231);
+}
+#imagem2 {
+    width: 1300px;
+    margin-left:25px;
+    margin-right: 1px;
+    margin-top: -10px;
+    color: black;
+}
+#contatos {
+        text-align: justify;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 15px;
+        color: black;
+        margin-left: 30px;
+        width: 1000px;
+}
+#lista {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px
+}
